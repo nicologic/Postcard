@@ -61,6 +61,15 @@
                                     <rect key="frame" x="33" y="92" width="308" height="62"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-e4-MFR">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="90" width="308" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="HgD-l7-Gwo"/>
                                 <exclude reference="Vdd-hk-HqW"/>
                                 <exclude reference="UIB-hI-7rc"/>
+                                <exclude reference="MDP-e4-MFR"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="HgD-l7-Gwo"/>
                                 <include reference="Vdd-hk-HqW"/>
                                 <include reference="UIB-hI-7rc"/>
+                                <include reference="MDP-e4-MFR"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="fKf-DE-jmp" id="Big-9L-3M8"/>
                         <outlet property="mailButton" destination="Vdd-hk-HqW" id="F5a-ec-qAg"/>
                         <outlet property="messageLabel" destination="UIB-hI-7rc" id="OlQ-Lw-hf4"/>
+                        <outlet property="nameLabel" destination="MDP-e4-MFR" id="Wjn-Kr-FxN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
