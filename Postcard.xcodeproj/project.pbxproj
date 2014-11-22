@@ -13,6 +13,8 @@
 		033898FB1A1F780A008E0E74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033898FA1A1F780A008E0E74 /* Images.xcassets */; };
 		033898FE1A1F780A008E0E74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033898FC1A1F780A008E0E74 /* LaunchScreen.xib */; };
 		0338990A1A1F780A008E0E74 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033899091A1F780A008E0E74 /* PostcardTests.swift */; };
+		033899151A1F7DA9008E0E74 /* Einstein-02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033899131A1F7DA9008E0E74 /* Einstein-02.jpg */; };
+		033899161A1F7DA9008E0E74 /* tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 033899141A1F7DA9008E0E74 /* tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		033899031A1F780A008E0E74 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		033899081A1F780A008E0E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033899091A1F780A008E0E74 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		033899131A1F7DA9008E0E74 /* Einstein-02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Einstein-02.jpg"; sourceTree = "<group>"; };
+		033899141A1F7DA9008E0E74 /* tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		033898F11A1F780A008E0E74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				033899131A1F7DA9008E0E74 /* Einstein-02.jpg */,
+				033899141A1F7DA9008E0E74 /* tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg */,
 				033898F21A1F780A008E0E74 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033899151A1F7DA9008E0E74 /* Einstein-02.jpg in Resources */,
+				033899161A1F7DA9008E0E74 /* tumblr_static_5av6fshqaskkkc8o000k00ooo.jpg in Resources */,
 				033898F91A1F780A008E0E74 /* Main.storyboard in Resources */,
 				033898FE1A1F780A008E0E74 /* LaunchScreen.xib in Resources */,
 				033898FB1A1F780A008E0E74 /* Images.xcassets in Resources */,
